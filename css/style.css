@@ -2,6 +2,7 @@
 @import "reset.css";
 @import "variables.css";
 @import "components/status-bar.css";
+@import "components/notification-circle.css";
 @import "components/nav-bar.css";
 @import "components/menu-header.css";
 @import "components/user-component.css";
@@ -12,4 +13,8 @@ body {
     font-family: "Open Sans", sans-serif;
     font-family: "Oxygen", sans-serif;
     height: 1000vh;
+}
+
+.main-screen {
+    padding: 0px var(--horizontal-space);
 }
