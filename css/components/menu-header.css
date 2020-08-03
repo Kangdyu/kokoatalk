@@ -1,0 +1,16 @@
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--horizontal-space);
+    padding-top: 50px;
+}
+
+.menu-header__title {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.menu-header__icons span {
+    margin-left: 30px;
+}

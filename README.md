@@ -1,4 +1,4 @@
-# Kokoatalk
+# Kakaotalk Clone
 
 Web Development Practice - Messenger UI using HTML, CSS only
 
