@@ -95,8 +95,27 @@
     bottom: 10px;
     right: 10px;
     font-size: 12px;
+    cursor: pointer;
 }
 
 .open-post__heart-count span {
     margin-left: 5px;
+}
+
+@keyframes heartBeatAnimation {
+    0% {
+        transform: none;
+    }
+    50% {
+        color: tomato;
+        transform: scale(1.5, 1.5);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.open-post__heart-count:hover i {
+    will-change: transform;
+    animation: heartBeatAnimation 1s ease-in-out infinite;
 }

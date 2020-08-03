@@ -15,3 +15,16 @@
 .menu-header__icons span {
     margin-left: 30px;
 }
+
+@keyframes rotateCogAnimation {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.menu-header__icons .fa-cog:hover {
+    animation: rotateCogAnimation 1s linear infinite;
+}
