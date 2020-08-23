@@ -2,6 +2,7 @@
 .user-component__column:first-child {
     display: flex;
     align-items: center;
+    padding: 5px 0;
 }
 
 .user-component {
